@@ -68,49 +68,6 @@ Head opens Data View → filters → exports CSV
 
 ---
 
-## Project Structure
-annotatelab/
-├── annotatelab-frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── Navbar.jsx
-│   │   ├── context/
-│   │   │   └── ToastContext.jsx
-│   │   ├── lib/
-│   │   │   └── supabase.js
-│   │   └── pages/
-│   │       ├── Login.jsx
-│   │       ├── Dashboard.jsx
-│   │       ├── Upload.jsx
-│   │       ├── Annotate.jsx
-│   │       └── Admin.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│   ├── .env.example
-│   └── package.json
-│
-├── annotatelab-backend/
-│   ├── src/
-│   │   ├── routes/
-│   │   │   ├── health.js
-│   │   │   ├── images.js
-│   │   │   ├── video.js
-│   │   │   └── delete.js
-│   │   ├── lib/
-│   │   │   ├── r2.js
-│   │   │   ├── compress.js
-│   │   │   └── jobs.js
-│   │   └── utils/
-│   │       └── sanitize.js
-│   ├── tmp/
-│   ├── server.js
-│   ├── .env.example
-│   └── package.json
-│
-├── .gitignore
-└── README.md
-
 ---
 
 ## Prerequisites
